@@ -1,0 +1,21 @@
+{
+  "name": "strapi-next-starter",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run develop --prefix strapi\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kredde/strapi-next-starter.git"
+  },
+  "author": "Kristian Schwienbacher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kredde/strapi-next-starter/issues"
+  },
+  "homepage": "https://github.com/kredde/strapi-next-starter#readme"
+}
